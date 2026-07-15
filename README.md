@@ -1,22 +1,24 @@
 <div align="center">
 
-# 🏨 StayEase API
+# 🏨 StayEase Frontend
 
-### RESTful Backend API for StayEase Hotel Booking Platform
+### Modern Hotel Booking Web Application
 
-<p align="center">
-A modern REST API built with Laravel 12 to power the StayEase Hotel Booking application.
-</p>
+A responsive hotel booking website built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**.
 
-<p align="center">
+<br>
 
-![Laravel](https://img.shields.io/badge/Laravel-12-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Sanctum](https://img.shields.io/badge/Auth-Laravel%20Sanctum-blue?style=for-the-badge)
-![REST API](https://img.shields.io/badge/API-REST-success?style=for-the-badge)
+<img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white">
+<img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white">
+<img src="https://img.shields.io/badge/Laravel_API-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
 
-</p>
+<br><br>
+
+<img src="https://img.shields.io/github/license/raply075/stayease-frontend?style=flat-square">
+<img src="https://img.shields.io/github/stars/raply075/stayease-frontend?style=flat-square">
+<img src="https://img.shields.io/github/forks/raply075/stayease-frontend?style=flat-square">
 
 </div>
 
@@ -24,311 +26,293 @@ A modern REST API built with Laravel 12 to power the StayEase Hotel Booking appl
 
 # 📖 About
 
-StayEase API is the backend service of the StayEase Hotel Booking application.
+StayEase Frontend is a modern hotel booking web application that provides an intuitive experience for users to search hotels, make reservations, manage bookings, save favorite hotels, write reviews, and manage their personal profile.
 
-It provides secure RESTful APIs for authentication, hotel management, bookings, favorites, reviews, user profiles, and administrator features.
-
-This project was developed using Laravel 12 following REST API principles.
+The application focuses on a clean interface, responsive layout, smooth animations, and an excellent user experience.
 
 ---
 
 # ✨ Features
 
-- 🔐 Authentication (Laravel Sanctum)
-- 👤 User Registration & Login
-- 🏨 Hotel Management
-- 📅 Hotel Booking
-- ❤️ Favorite Hotels
-- ⭐ Hotel Reviews
-- 👤 User Profile Management
-- 🔑 Change Password
-- 🚪 Logout All Devices
-- 🗑 Delete Account
-- 🛡 Admin Dashboard API
-- 📡 RESTful JSON Response
+## 🔐 Authentication
+
+- User Login
+- User Registration
+- Secure Authentication
+- Logout
+
+---
+
+## 🏨 Hotel
+
+- Browse Hotels
+- Hotel Detail
+- Search Hotel
+- Filter by City
+- Filter by Rating
+- Filter by Price
+- Pagination
+
+---
+
+## ❤️ Favorite
+
+- Add Favorite Hotel
+- Remove Favorite Hotel
+- Favorite List
+
+---
+
+## 📅 Booking
+
+- Book Hotel
+- Booking Detail
+- Booking History
+- Booking Status
+
+---
+
+## ⭐ Review
+
+- Add Review
+- Hotel Rating
+- Average Rating
+- Review List
+
+---
+
+## 👤 User
+
+- Dashboard
+- Profile
+- Update Profile
+- Settings
+- Change Password
+- Delete Account
+
+---
+
+## 👨‍💼 Admin
+
+- Dashboard
+- Manage Hotels
+- Create Hotel
+- Edit Hotel
+- Delete Hotel
+- Manage Bookings
+- Manage Users
+
+---
+
+## 🎨 User Interface
+
+- Responsive Design
+- Dark Mode
+- Skeleton Loading
+- Empty State
+- Framer Motion Animation
+- Toast Notification
+- SweetAlert2
+- Smooth Page Transition
 
 ---
 
 # 🛠 Tech Stack
 
 | Category | Technology |
-|-----------|------------|
-| Framework | Laravel 12 |
-| Language | PHP 8.2 |
-| Database | SQLite |
-| Authentication | Laravel Sanctum |
-| ORM | Eloquent ORM |
-| API | REST API |
-| Testing | Postman |
+|----------|------------|
+| Frontend | React 19 |
+| Language | TypeScript |
+| Build Tool | Vite |
+| Styling | Tailwind CSS |
+| Routing | React Router DOM |
+| HTTP Client | Axios |
+| Animation | Framer Motion |
+| Alert | SweetAlert2 |
+| Notification | React Hot Toast |
+| Icons | React Icons |
 
 ---
 
 # 📁 Project Structure
 
-```
-app/
-├── Http/
-│   ├── Controllers/
-│   ├── Middleware/
-│   └── Requests/
+```text
+src
 │
-├── Models/
+├── assets
 │
-database/
-├── migrations/
-├── seeders/
-└── database.sqlite
-
-routes/
-└── api.php
-
-storage/
-
-public/
+├── components
+│   ├── admin
+│   ├── common
+│   ├── dashboard
+│   ├── hotel
+│   ├── layout
+│   ├── review
+│   ├── settings
+│   └── ui
+│
+├── context
+│
+├── hooks
+│
+├── pages
+│   ├── About
+│   ├── Admin
+│   ├── Booking
+│   ├── Contact
+│   ├── Dashboard
+│   ├── Favorite
+│   ├── Home
+│   ├── HotelDetail
+│   ├── Hotels
+│   ├── Login
+│   ├── MyBooking
+│   ├── Profile
+│   ├── Register
+│   └── Settings
+│
+├── routes
+├── services
+├── styles
+├── types
+└── utils
 ```
 
 ---
 
 # 🚀 Installation
 
-## Clone Repository
+### Clone Repository
 
 ```bash
-git clone https://github.com/raply075/stayease-api.git
+git clone https://github.com/raply075/stayease-frontend.git
 ```
 
-```
-cd stayease-api
-```
-
----
-
-## Install Dependencies
+### Enter Project
 
 ```bash
-composer install
+cd stayease-frontend
 ```
 
----
-
-## Copy Environment
+### Install Dependencies
 
 ```bash
-cp .env.example .env
+npm install
 ```
 
-Windows
+### Start Development Server
 
 ```bash
-copy .env.example .env
+npm run dev
 ```
 
----
-
-## Generate Application Key
+### Build Production
 
 ```bash
-php artisan key:generate
+npm run build
 ```
 
 ---
 
-## Create SQLite Database
+# 📷 Preview
 
-Create an empty file:
+## Home
 
-```
-database/database.sqlite
-```
-
-or
-
-```bash
-type nul > database/database.sqlite
-```
-
----
-
-## Configure Environment
-
-Make sure your **.env** contains:
-
-```env
-DB_CONNECTION=sqlite
-```
-
----
-
-## Run Migration
-
-```bash
-php artisan migrate
-```
-
----
-
-## Start Development Server
-
-```bash
-php artisan serve
-```
-
-Server will run at
+> Add screenshot here
 
 ```
-http://127.0.0.1:8000
+public/screenshots/home.png
 ```
-
----
-
-# 🔐 Authentication
-
-The API uses **Laravel Sanctum** for authentication.
-
-After login, every protected endpoint requires:
-
-```
-Authorization: Bearer YOUR_ACCESS_TOKEN
-```
-
----
-
-# 📌 Main Endpoints
-
-## Authentication
-
-| Method | Endpoint |
-|---------|----------|
-| POST | /api/register |
-| POST | /api/login |
-| POST | /api/logout |
 
 ---
 
 ## Hotels
 
-| Method | Endpoint |
-|---------|----------|
-| GET | /api/hotels |
-| GET | /api/hotels/{id} |
-| POST | /api/hotels |
-| PUT | /api/hotels/{id} |
-| DELETE | /api/hotels/{id} |
+> Add screenshot here
+
+```
+public/screenshots/hotels.png
+```
+
+---
+
+## Hotel Detail
+
+> Add screenshot here
+
+```
+public/screenshots/detail.png
+```
 
 ---
 
 ## Booking
 
-| Method | Endpoint |
-|---------|----------|
-| GET | /api/bookings |
-| POST | /api/bookings |
-| DELETE | /api/bookings/{id} |
-
----
-
-## Favorites
-
-| Method | Endpoint |
-|---------|----------|
-| GET | /api/favorites |
-| POST | /api/favorites |
-| DELETE | /api/favorites/{id} |
-
----
-
-## Reviews
-
-| Method | Endpoint |
-|---------|----------|
-| GET | /api/reviews |
-| POST | /api/reviews |
-
----
-
-## Profile
-
-| Method | Endpoint |
-|---------|----------|
-| GET | /api/profile |
-| PUT | /api/profile |
-| PUT | /api/change-password |
-| DELETE | /api/delete-account |
-
----
-
-# 🗄 Database
-
-The project uses **SQLite** during development.
-
-Database migrations are fully managed by Laravel.
+> Add screenshot here
 
 ```
-database/
-│
-├── migrations/
-├── factories/
-├── seeders/
-└── database.sqlite
+public/screenshots/booking.png
 ```
 
 ---
 
-# 📡 API Response Example
+## Dashboard
 
-Success Response
+> Add screenshot here
 
-```json
-{
-    "success": true,
-    "message": "Login Successful",
-    "token": "1|xxxxxxxxxxxxxxxxxx",
-    "user": {
-        "id":1,
-        "name":"Admin",
-        "email":"admin@example.com"
-    }
-}
+```
+public/screenshots/dashboard.png
 ```
 
 ---
 
-# 🔒 Security
+## Admin Dashboard
 
-- Laravel Sanctum Authentication
-- Request Validation
-- Password Hashing
-- Protected Routes
-- Middleware Authentication
-- CSRF Protection
-- Mass Assignment Protection
+> Add screenshot here
+
+```
+public/screenshots/admin-dashboard.png
+```
 
 ---
 
-# 🔮 Future Improvements
+# 📦 Available Scripts
 
-- PostgreSQL Support
-- MySQL Support
-- Docker Deployment
-- CI/CD Pipeline
-- Swagger API Documentation
+| Command | Description |
+|---------|-------------|
+| npm run dev | Start Development Server |
+| npm run build | Production Build |
+| npm run preview | Preview Production Build |
+
+---
+
+# 🌐 Backend Repository
+
+👉 https://github.com/raply075/stayease-api
+
+---
+
+# 📌 Future Improvements
+
+- Online Payment Gateway
+- Google Authentication
 - Email Verification
-- Payment Gateway Integration
-- Unit Testing
+- Hotel Map Integration
+- Booking Invoice
+- Real-Time Notification
+- Image Gallery
+- Hotel Recommendation
+- Wishlist Sharing
 
 ---
 
-# 🌐 Frontend Repository
-
-Frontend Project
-
-👉 https://github.com/raply075/stayease-frontend
-
----
-
-# 👨‍💻 Developer
+# 👨‍💻 Author
 
 **Raply Fediansyah**
+
+Undergraduate Student  
+Faculty of Computer Science  
+Universitas Duta Bangsa Surakarta
 
 GitHub
 
@@ -336,16 +320,10 @@ https://github.com/raply075
 
 ---
 
-# 📄 License
-
-This project is developed for educational purposes and portfolio.
-
----
-
 <div align="center">
 
-### ⭐ If you like this project, don't forget to give it a Star ⭐
+### ⭐ If you like this project, don't forget to give it a star on GitHub ⭐
 
-Made with ❤️ using Laravel 12
+Made with ❤️ using React & Laravel
 
 </div>
