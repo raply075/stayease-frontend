@@ -218,7 +218,11 @@ npm run build
 
 ## Home
 
-> Add screenshot here
+<img width="1918" height="866" alt="image" src="https://github.com/user-attachments/assets/7ee3daf0-07bb-41d0-8eae-facb1fb27789" />
+<img width="1918" height="858" alt="image" src="https://github.com/user-attachments/assets/8589a5ba-ca36-4487-88b2-771d31ed686e" />
+<img width="1918" height="863" alt="image" src="https://github.com/user-attachments/assets/d4cd6ea7-1fa4-424f-9421-79300fa11d91" />
+<img width="1918" height="861" alt="image" src="https://github.com/user-attachments/assets/32c0edd7-1ddd-4532-921f-7f52828fb0f6" />
+
 
 ```
 public/screenshots/home.png
@@ -228,7 +232,9 @@ public/screenshots/home.png
 
 ## Hotels
 
-> Add screenshot here
+<img width="1918" height="862" alt="image" src="https://github.com/user-attachments/assets/f6894d8e-0a7c-4cde-9d7d-a6961a0b8980" />
+<img width="1913" height="857" alt="image" src="https://github.com/user-attachments/assets/8860c759-5413-4b56-a968-cdb39130aa50" />
+
 
 ```
 public/screenshots/hotels.png
@@ -238,7 +244,10 @@ public/screenshots/hotels.png
 
 ## Hotel Detail
 
-> Add screenshot here
+<img width="1918" height="855" alt="image" src="https://github.com/user-attachments/assets/3ace45a5-42d8-4f95-961b-bdfc34341f83" />
+<img width="1918" height="822" alt="image" src="https://github.com/user-attachments/assets/0e1ec24c-00b2-43eb-bb4e-0f0076f39f7d" />
+<img width="1918" height="842" alt="image" src="https://github.com/user-attachments/assets/3bf6ce79-95d9-4eaf-9bd5-92d33189b492" />
+
 
 ```
 public/screenshots/detail.png
@@ -248,7 +257,9 @@ public/screenshots/detail.png
 
 ## Booking
 
-> Add screenshot here
+> <img width="1918" height="828" alt="image" src="https://github.com/user-attachments/assets/7d03dece-a55b-4c7d-8c96-b49d4297664c" />
+<img width="1918" height="847" alt="image" src="https://github.com/user-attachments/assets/29901cb5-ab1f-43db-8800-67d4441390b8" />
+
 
 ```
 public/screenshots/booking.png
@@ -258,7 +269,10 @@ public/screenshots/booking.png
 
 ## Dashboard
 
-> Add screenshot here
+<img width="1918" height="860" alt="image" src="https://github.com/user-attachments/assets/9bc3b36f-4099-47c6-9ab5-4627c8d72343" />
+<img width="1917" height="838" alt="image" src="https://github.com/user-attachments/assets/5e4fa7e6-e9f3-4292-b13d-92076fd8e09a" />
+
+
 
 ```
 public/screenshots/dashboard.png
@@ -268,7 +282,12 @@ public/screenshots/dashboard.png
 
 ## Admin Dashboard
 
-> Add screenshot here
+<img width="1918" height="862" alt="image" src="https://github.com/user-attachments/assets/e275154f-a669-4a6f-be41-2d535893bee9" />
+<img width="1913" height="853" alt="image" src="https://github.com/user-attachments/assets/c60c8842-c045-4d40-b06c-124c4c825c05" />
+<img width="1402" height="852" alt="image" src="https://github.com/user-attachments/assets/03696632-e671-4205-9e31-e92610edfaae" />
+<img width="1906" height="856" alt="image" src="https://github.com/user-attachments/assets/13c09499-31de-44ef-a5c7-a5b7b69e0a7e" />
+<img width="1913" height="842" alt="image" src="https://github.com/user-attachments/assets/4eb0adf3-5e5e-4638-8522-281c8c5e099d" />
+
 
 ```
 public/screenshots/admin-dashboard.png
